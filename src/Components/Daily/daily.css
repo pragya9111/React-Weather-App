@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.overlay2{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.week{
+padding-left: 3vh;
+height: 40vh;
+width: 100vw;
+color: #fff;
+}
+
+.week > h1{
+    margin-left: 4vw;
+}
+
+.flex{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+.today{
+    color: #fff;
+    height: 30vh;
+    width: 14vw;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 2vh;
+    margin-top: 2vh;
+    border-radius: 1.5vmax;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.icon{ 
+height: 7vh;
+margin: auto;
+width: 4vw;
+margin-top: 2vh;
+}
+
+.today h1{
+    margin-top: 2vh;
+}
+
+.today h4{
+    margin-top: 2vh;
+}
+
+.icon img{
+    height: 100%;
+    width: 100%;
+}

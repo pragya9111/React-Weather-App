@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+.weather{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+}
+
+.overlay{
+    height:50vh ;
+    width:100vw ;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.weather h1{
+    /* margin-top: -5vh; */
+    font: 550 3vmax 'Gilroy';
+}
+
+.image{
+    height: 8vh;
+    width: 5vw;
+}
+
+.temp{
+    display: flex;
+    width: 25vh;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.weather h3{
+    margin-top: 3vh;
+    font: 500 1.5vmax "Gilroy";
+}
+
+.weather >p{
+margin-top: 1vh;
+}
+
+.temp h1{
+    font: 600 3vmax 'gilroy';
+    margin-top: .5vh;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+.downdets{
+    margin-top: 2vh;
+}
+
+.dets{
+    width: 30vw;
+    height: 5vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-evenly;
+}
